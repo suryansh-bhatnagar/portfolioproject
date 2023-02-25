@@ -9,12 +9,12 @@ import img6 from "./img/projects/covid-dashboard.png";
 export const Experience = [
   {
     id: 1,
-    date: "May 2022 - Present",
+    date: "May 2022 - Feb 2023",
     iconsSrc: <IoCodeWorking />,
     title: "Frontend Intern @Medbikri",
     location: "Remote",
     description:
-      "Add feature like Add & search customer , fix countless bugs ,develop some ui components  ",
+      "Add features like Add & Search customer, fix countless bugs, develop a graph to display sales of chemist in last week, last 3 months and in lifetime and some ui components. ",
   },
   {
     id: 2,

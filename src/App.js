@@ -12,7 +12,7 @@ import img from "./img/img1.jpg";
 
 function App() {
   const cv_link =
-    "https://drive.google.com/file/d/1Yt-S3k-HCn5hZoo4HY2hpm3oLJBc2a19/view?usp=share_link";
+    "https://drive.google.com/file/d/1DBtiGdOt4ep4NIQdbAJXHFhVv_6M5DXS/view?usp=share_link";
   // Adding animation to the navbar buttons
   const elements = document.getElementsByClassName("item");
   for (let i = 0; i < elements.length; i++) {
@@ -99,13 +99,6 @@ function App() {
                   onClick={() => setIsActive(false)}
                 >
                   Home
-                </a>
-                <a
-                  href="#about"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
-                  onClick={() => setIsActive(false)}
-                >
-                  About
                 </a>
                 <a
                   href="#skill"
@@ -214,7 +207,7 @@ function App() {
             className="text-3xl flex items-center justify-center
            text-center text-slate-200 capitalize my-8"
           >
-            <h1 className="item mr-1"> EDUCATION </h1>
+            <h1 className="item mr-1"> EDUCATION & EXPERIANCE </h1>
           </div>
 
           <section className="w-full flex items-center justify-center">
