@@ -5,6 +5,8 @@ import img3 from "./img/projects/sip-calc.png";
 import img4 from "./img/projects/fetch-weather.png";
 import img5 from "./img/projects/ngo.png";
 import img6 from "./img/projects/covid-dashboard.png";
+import img7 from './img/projects/ecommerce.png'
+import img8 from './img/projects/food-vegas.png'
 
 export const Experience = [
   {
@@ -37,41 +39,55 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
+    name: "Food Vegas",
+    imageSrc: img8,
+    techs: "React Js,Tailwind CSS",
+    github: "https://github.com/suryansh-bhatnagar/food-vegas",
+  },
+  {
+    id: 2,
+    name: "Ecommerce Shop",
+    imageSrc: img7,
+    techs: "React Js,Tailwind CSS",
+    github: "https://github.com/suryansh-bhatnagar/ecommerce-shop",
+  },
+  {
+    id: 3,
     name: "Fresh Resume",
     imageSrc: img1,
     techs: "React Js",
     github: "https://github.com/suryansh-bhatnagar/fresh-resume",
   },
   {
-    id: 2,
+    id: 4,
     name: "NewsVenger",
     imageSrc: img2,
     techs: "React Js",
     github: "https://github.com/suryansh-bhatnagar/newsvenger",
   },
   {
-    id: 3,
+    id: 5,
     name: "SIP Calculator",
     imageSrc: img3,
     techs: "Html Css Js Bootstrap",
     github: "https://github.com/suryansh-bhatnagar/sip-calculator",
   },
   {
-    id: 4,
+    id: 6,
     name: "Fetch weather",
     imageSrc: img4,
     techs: "React Js",
     github: "https://github.com/suryansh-bhatnagar/weather-app",
   },
   {
-    id: 5,
+    id: 7,
     name: "NGO website UI",
     imageSrc: img5,
     techs: "Html Css Js Bootstrap",
     github: "https://github.com/suryansh-bhatnagar/ngo-website",
   },
   {
-    id: 6,
+    id: 8,
     name: "Covid Dashboard",
     imageSrc: img6,
     techs: "React Js Axios Chart Js",
