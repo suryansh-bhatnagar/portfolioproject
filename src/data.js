@@ -7,6 +7,7 @@ import img5 from "./img/projects/ngo.png";
 import img6 from "./img/projects/covid-dashboard.png";
 import img7 from './img/projects/ecommerce.png'
 import img8 from './img/projects/food-vegas.png'
+import img9 from './img/projects/skillup.png';
 
 export const Experience = [
   {
@@ -37,6 +38,13 @@ export const Experience = [
 ];
 
 export const Projects = [
+  {
+    id: 0,
+    name: "SkillUp- EdTech Platform",
+    imageSrc: img9,
+    techs: "MERN Stack",
+    github: "https://github.com/suryansh-bhatnagar/SkillUpFrontend",
+  },
   {
     id: 1,
     name: "Food Vegas",
