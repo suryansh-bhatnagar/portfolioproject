@@ -8,16 +8,17 @@ import img6 from "./img/projects/covid-dashboard.png";
 import img7 from './img/projects/ecommerce.png'
 import img8 from './img/projects/food-vegas.png'
 import img9 from './img/projects/skillup.png';
+import img10 from './img/projects/secret-messages.png';
 
 export const Experience = [
+
   {
     id: 1,
-    date: "May 2022 - Feb 2023",
+    date: "2019-2020",
     iconsSrc: <IoCodeWorking />,
-    title: "Frontend Intern @Medbikri",
-    location: "Remote",
-    description:
-      "Add features like Add & Search customer, fix countless bugs, develop a graph to display sales of chemist in last week, last 3 months and in lifetime and some ui components. ",
+    title: "CBSE - 12th",
+    location: "Pilibhit, Uttar Pradesh",
+    description: "Kendriya Vidyalaya | Percentage - 84",
   },
   {
     id: 2,
@@ -29,42 +30,52 @@ export const Experience = [
   },
   {
     id: 3,
-    date: "2019-2020",
+    date: "May 2022 - Feb 2023",
     iconsSrc: <IoCodeWorking />,
-    title: "CBSE - 12th",
-    location: "Pilibhit, Uttar Pradesh",
-    description: "Kendriya Vidyalaya | Percentage - 84",
+    title: "Frontend Intern @Medbikri",
+    location: "Remote",
+    description:
+      "Elevated application functionality by integrating key features, including customer addition, enhanced customer search, and tracking of recent customer searches, alongside the development of variousreusable UI components."
   },
-];
+  {
+    id: 4,
+    date: "Aug 2023 - Jan 2023",
+    iconsSrc: <IoCodeWorking />,
+    title: "SDE Intern @Feedlens",
+    location: "Remote",
+    description:
+      "Spearheaded the development of a cutting-edge Review Management Tool leveraging React.js and Tailwind CSS, architecting the frontend of the project from initial concept to deployment.",
+  },
+].reverse();
 
 export const Projects = [
   {
     id: 0,
-    name: "SkillUp- EdTech Platform",
-    imageSrc: img9,
-    techs: "MERN Stack",
-    github: "https://github.com/suryansh-bhatnagar/SkillUpFrontend",
+    name: "Covid Dashboard",
+    imageSrc: img6,
+    techs: "React Js Axios Chart Js",
+    github: "https://github.com/suryansh-bhatnagar/coviddashboard",
   },
   {
     id: 1,
-    name: "Food Vegas",
-    imageSrc: img8,
-    techs: "React Js,Tailwind CSS",
-    github: "https://github.com/suryansh-bhatnagar/food-vegas",
+    name: "NGO website UI",
+    imageSrc: img5,
+    techs: "Html Css Js Bootstrap",
+    github: "https://github.com/suryansh-bhatnagar/ngo-website",
   },
   {
     id: 2,
-    name: "Ecommerce Shop",
-    imageSrc: img7,
-    techs: "React Js,Tailwind CSS",
-    github: "https://github.com/suryansh-bhatnagar/ecommerce-shop",
+    name: "Fetch weather",
+    imageSrc: img4,
+    techs: "React Js",
+    github: "https://github.com/suryansh-bhatnagar/weather-app",
   },
   {
     id: 3,
-    name: "Fresh Resume",
-    imageSrc: img1,
-    techs: "React Js",
-    github: "https://github.com/suryansh-bhatnagar/fresh-resume",
+    name: "SIP Calculator",
+    imageSrc: img3,
+    techs: "Html Css Js Bootstrap",
+    github: "https://github.com/suryansh-bhatnagar/sip-calculator",
   },
   {
     id: 4,
@@ -75,33 +86,50 @@ export const Projects = [
   },
   {
     id: 5,
-    name: "SIP Calculator",
-    imageSrc: img3,
-    techs: "Html Css Js Bootstrap",
-    github: "https://github.com/suryansh-bhatnagar/sip-calculator",
+    name: "Fresh Resume",
+    imageSrc: img1,
+    techs: "React Js",
+    github: "https://github.com/suryansh-bhatnagar/fresh-resume",
   },
   {
     id: 6,
-    name: "Fetch weather",
-    imageSrc: img4,
-    techs: "React Js",
-    github: "https://github.com/suryansh-bhatnagar/weather-app",
+    name: "Ecommerce Shop",
+    imageSrc: img7,
+    techs: "React Js,Tailwind CSS",
+    github: "https://github.com/suryansh-bhatnagar/ecommerce-shop",
   },
+
   {
     id: 7,
-    name: "NGO website UI",
-    imageSrc: img5,
-    techs: "Html Css Js Bootstrap",
-    github: "https://github.com/suryansh-bhatnagar/ngo-website",
+    name: "Food Vegas",
+    imageSrc: img8,
+    techs: "React Js,Tailwind CSS",
+    github: "https://github.com/suryansh-bhatnagar/food-vegas",
   },
   {
     id: 8,
-    name: "Covid Dashboard",
-    imageSrc: img6,
-    techs: "React Js Axios Chart Js",
-    github: "https://github.com/suryansh-bhatnagar/coviddashboard",
+    name: "SkillUp: EdTech Platform",
+    imageSrc: img9,
+    techs: "MERN Stack",
+    github: "https://github.com/suryansh-bhatnagar/SkillUpFrontend",
   },
-];
+  {
+    id: 9,
+    name: "SecretMessage: Send or Receive Anonymous Messages",
+    imageSrc: img10,
+    techs: "Next.js, NextAuth.js, Tailwind CSS",
+    github: "https://github.com/suryansh-bhatnagar/secretmessage",
+  },
+].reverse();
+
+
+
+
+
+
+
+
+
 
 export const SocialLinks = [
   {

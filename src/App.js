@@ -156,7 +156,7 @@ function App() {
                 Hey, I'm a CS student with keen interest in Web
                 Development. I love to solve problems with my tech stacks. Open
                 to all kind of learning and opportunities that may add to my
-                skill set. Tech stacks & tools i work upon - HTML, CSS, JavaScript, TypeScript, Tailwind, React Js, React Native, Node Js ,Express Js and MongoDB.
+                skill set. Tech stacks & tools i work upon - HTML, CSS, JavaScript, TypeScript, Tailwind, React Js, React Native,Next Js, Node Js ,Express Js and MongoDB.
               </p>
 
               <button className="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
