@@ -5,13 +5,12 @@ import img3 from "./img/projects/sip-calc.png";
 import img4 from "./img/projects/fetch-weather.png";
 import img5 from "./img/projects/ngo.png";
 import img6 from "./img/projects/covid-dashboard.png";
-import img7 from './img/projects/ecommerce.png'
-import img8 from './img/projects/food-vegas.png'
-import img9 from './img/projects/skillup.png';
-import img10 from './img/projects/secret-messages.png';
+import img7 from "./img/projects/ecommerce.png";
+import img8 from "./img/projects/food-vegas.png";
+import img9 from "./img/projects/skillup.png";
+import img10 from "./img/projects/secret-messages.png";
 
 export const Experience = [
-
   {
     id: 1,
     date: "2019-2020",
@@ -35,7 +34,7 @@ export const Experience = [
     title: "Frontend Intern @Medbikri",
     location: "Remote",
     description:
-      "Elevated application functionality by integrating key features, including customer addition, enhanced customer search, and tracking of recent customer searches, alongside the development of variousreusable UI components."
+      "Elevated application functionality by integrating key features, including customer addition, enhanced customer search, and tracking of recent customer searches, alongside the development of variousreusable UI components.",
   },
   {
     id: 4,
@@ -45,6 +44,15 @@ export const Experience = [
     location: "Remote",
     description:
       "Spearheaded the development of a cutting-edge Review Management Tool leveraging React.js and Tailwind CSS, architecting the frontend of the project from initial concept to deployment.",
+  },
+  {
+    id: 5,
+    date: "May 2024 - Present",
+    iconsSrc: <IoCodeWorking />,
+    title: "SDE @Roado",
+    location: "Remote",
+    description:
+      "Integrated GPS APIs for real-time tracking, built a CSV report generation feature, Analytics Dashboard and developed responsive React UIs connected to REST/GraphQL APIs.",
   },
 ].reverse();
 
@@ -121,15 +129,6 @@ export const Projects = [
     github: "https://github.com/suryansh-bhatnagar/secretmessage",
   },
 ].reverse();
-
-
-
-
-
-
-
-
-
 
 export const SocialLinks = [
   {
